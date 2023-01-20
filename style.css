@@ -1,0 +1,8 @@
+.input{
+    pointer-events: none;
+    width: 40px;
+}
+button{
+    border-radius: 100%;
+    align-self: center;
+}

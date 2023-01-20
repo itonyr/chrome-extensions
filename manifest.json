@@ -1,0 +1,13 @@
+{
+  "name": "Call Counter",
+  "description": "Basic chrome extension to keep track of calls",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "app.html",
+    "default_icon": "counter.png"
+  },
+  "permissions": [
+    "storage"
+  ]
+}

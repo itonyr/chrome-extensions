@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Call Counter</h1>
+    <div class = "calls-taken">
+      <h2> Calls Taken </h2>
+      <input class = "input" type = "text" id="calls-taken-counter"></input>
+      <button type = "button" aria-label="button" id = "taken-add" class = "taken-add"> + </input> 
+      <button type = "button" aria-label="button" id = "taken-subtract"> - </input> 
+    </div>
+    <div class = "calls-missed">
+      <h2> Calls Missed </h2>
+      <input class = "input" type = "text" id="calls-missed-counter" contenteditable="false"></input>
+      <button type = "button" aria-label="button" id = "missed-add"> + </input> 
+      <button type = "button" aria-label="button" id = "missed-subtract"> - </input> 
+    </div>
+    <div class = "clear-div">
+      <button type = "button" aria-label="button" id = "clear-btn"> clear </input> 
+    </div>
+    <script src="./jquery.min.js"></script>
+    <script src="popup.js"></script>
+    <div class = "notes">
+    </div>
+  </body>
+</html>
